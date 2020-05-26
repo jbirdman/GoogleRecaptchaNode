@@ -94,7 +94,7 @@ public class RecaptchaNode extends SingleOutcomeNode {
             "    div.setAttribute(\"data-callback\" ,\"completed\");\n" +
             "\n" +
             "    var fieldset = document.forms[0].getElementsByTagName(\"fieldset\")[0];\n" +
-            "    fieldset.prepend(div);\n" +
+            "    fieldset.append(div);\n" +
             "}\n" +
             "\n" +
             "if (document.readyState !== 'loading') {\n" +
